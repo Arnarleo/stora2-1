@@ -1,0 +1,4 @@
+#ignora nodemodule
+node_modules/
+#ekki geyma styles.css
+styles.css
