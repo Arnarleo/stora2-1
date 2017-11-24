@@ -1,0 +1,69 @@
+.videoContainer {
+  width: 95%;
+  margin: auto;
+
+  .activeButton:active {
+    border: 5px solid #5b5a5b;
+    border-radius: 0.2em;
+  }
+
+  &__header {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 2.5em;
+  }
+
+  &__videoImg {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  &__video {
+    width: 100%;
+    display: flex;
+  }
+
+  &__playOverlay {
+    background-color: rgba(0,0,0, 0.3);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+	display: block;
+  }
+
+  &__playOverlayImage {
+    width: 5%;
+    padding-top: 25%;
+  }
+
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+  &__menu img {
+    width: 8%;
+    height: 100%;
+    margin-left:2%;
+  }
+
+}
+
+.backButton {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  &__text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+}
